@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 4</title>
+  <style media="screen" type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+.contenedor{
+  height: 20rem;
+  width: 20rem;
+  border: 1px solid black;
+  position: relative;
+}
+.imagen1{
+position: absolute;
+z-index: 1;
+}
+.imagen2{
+  position: absolute;
+  max-width: 30%;
+  z-index: 2;
+  bottom: 0;
+}
+
+
+  </style>
+</head>
+<body>
+
+  <div class="contenedor">
+    <img class="imagen1" src="assets\ejercicio-6.png" alt="">
+    <img class="imagen2" src="assets\ejercicio-6_ribbon.png" alt="">
+  </div>
+</body>
+</html>
